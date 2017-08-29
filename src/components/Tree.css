@@ -1,0 +1,64 @@
+.tree-container{
+    cursor: pointer;
+    position: relative;
+}
+.tree-container ul,.tree-container ul li{
+    list-style: none;
+}
+
+.tree-container ul{
+    margin: 6px 0; 
+    padding: 0;   
+}
+.tree-container li{
+    padding-left: 32px;
+    margin: 6px 0;
+}
+
+.tree-container .icon{
+    width:32px;
+    height: 32px; 
+    display: inline-block;   
+}
+.tree-container .txt{
+    display: inline-block;
+    height: 32px;
+    overflow: hidden;
+    line-height: 32px;
+    margin-left:4px;
+    border: 1px solid rgba(0,0,0,0);
+}
+
+.tree-container .txt:hover{
+    border: 1px dashed #e2e;
+}
+
+.tree-container .selected-node{
+    border: 1px solid rgba(0,0,0,0);
+    background-color: #eeeeee;
+    color:#333;
+    /*padding: 2px 6px;*/
+}
+
+.tree-container .t-area{
+    background: url('/imgs/t-area.png') no-repeat 0/32px;
+}
+.tree-container .t-road{
+    background: url('/imgs/t-road.png') no-repeat 0/32px;
+}
+.tree-container .t-sw{
+    background: url('/imgs/t-sw.png') no-repeat 0/32px;
+}
+.tree-container .t-cross{
+    background: url('/imgs/t-cross.png') no-repeat 0/32px;
+}
+
+.tree-menu{
+    position: fixed;
+    background-color: white;
+    height: 32px;
+    overflow: hidden;
+    z-index: 99999;
+    border: 1px solid #aaaaaa;
+}
+

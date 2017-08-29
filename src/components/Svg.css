@@ -1,0 +1,11 @@
+.mysvg{
+    width: 100%; 
+    flex-grow: 1;
+    cursor: default;
+    outline: none;
+    background-color: #f3f3f3;
+    overflow: hidden;
+}
+.mysvg text {
+    user-select: none;
+}

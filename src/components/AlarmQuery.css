@@ -1,0 +1,86 @@
+.alarmquery-container{
+    display: flex;
+    overflow: hidden;
+    flex-grow: 1;
+    flex-direction: column;
+}
+.alarmquery-top{
+    min-height: 4em;
+    overflow: hidden;
+    margin: 4px;
+    padding: 10px;
+    border: 1px solid #eee;
+}
+.alarmquery-bottom{
+    flex-grow: 1;
+    overflow: hidden;
+    margin: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.alarmquery-bottom .icon-list{
+    display: flex;
+    overflow: hidden;
+    flex-direction: row;
+    margin: 0.1em 2em;
+    min-height: 2.5em;
+    padding: 0 0.5em;
+    
+}
+.alarmquery-bottom .icon-list div{
+    flex-grow: 1;
+    min-height: 2.5em;
+    line-height:2.5em;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 2.2em;
+}
+.icon-time{   
+    background-image:url('/imgs/time.png');
+}
+.icon-sw{
+  
+    background-image:url('/imgs/sw.png');
+}
+.icon-road{
+   
+    background-image:url('/imgs/road.png');
+}
+
+.icon-area{
+  
+    background-image:url('/imgs/area.png');
+}
+
+.icon-bad{
+    background-image:url('/imgs/bad.png');
+}
+.icon-repare{
+
+    background-image:url('/imgs/repare.png');
+}
+
+
+.alarmquery-bottom .content-list{
+    flex-grow: 1;
+    overflow: hidden;
+    margin: 0.1em 2em;
+    padding: 0 0.5em;
+    position: relative;
+}
+ 
+.daterangepicker td.active, .daterangepicker td.active:hover{
+    background-color: #59c2c3;
+}
+.range_inputs .btn-success,.range_inputs .btn-success:active:focus{
+    background-image: linear-gradient(to bottom, #62d1d2 0%, #59c2c3 100%);
+    border: 1px solid #59c2c3;
+    text-shadow: none;
+    background-color:#59c2c3;
+    color: white;
+}
+.alarmquery-bottom .content-list td{
+    width:16.6666666%;
+    text-align: center;
+}

@@ -1,0 +1,60 @@
+.receive-container{
+    flex-grow: 1;
+    flex-direction: column;
+    display: flex;
+    overflow: hidden;
+}
+.receive-tool{
+    height: auto;
+    padding: 8px;
+    margin: 4px 0;
+}
+.receive-sub{
+    flex-grow: 1;
+    flex-direction: row;
+    display: flex;
+    overflow: hidden;
+}
+.receive-left{
+    width:300px;
+    overflow: hidden;
+    flex-direction: column;
+    display: flex;
+    border-top: 1px dashed #ddd;
+    border-right: 1px dashed #ddd;
+    margin: 1px;
+    padding: 2px;
+}
+.receive-right{
+    flex-grow: 1;
+    margin-left: 4px;
+}
+.receive-list{
+    overflow-y:auto;
+    overflow-x: auto;
+    flex-grow: 1;
+}
+
+.receive-tool input {
+    display: inline-block;
+}
+
+.receive-tool label{
+   display: inline-block;
+   margin: 0 10px;
+}
+
+.device{
+    margin: 4px;
+}
+
+.param-container{
+    margin: 6px;
+}
+
+.rowspan{
+    margin: 4px 0;
+}
+.nav-tabs > li > a{
+    color:#e0e0e0;
+}

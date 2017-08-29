@@ -1,0 +1,85 @@
+*{
+	box-sizing:border-box;
+}
+html,body{
+	overflow: hidden;
+	margin:0;
+	padding:0;
+	border:none;
+	height:100%;
+	width:100%;
+  	/*加个限制*/
+  	min-width:850px;
+  	min-height: 100px;
+}
+#root{
+	display:flex;
+	height:100%;
+	flex-direction:column;
+	align-content:space-around;
+}
+.xroot{
+	display:flex;
+	height:100%;
+	flex-direction:column;
+	align-content:space-around;
+	flex-grow: 1;
+}
+.flex-row{
+	display: flex;
+	overflow: hidden;
+}
+.flex-menu{	
+	margin:2px;
+	min-height:80px;
+  	background: #f6f6f6;
+}
+
+.hx1{
+	flex-grow: 1;
+}
+.hx2{
+	flex-grow: 2;
+}
+.hx3{
+	flex-grow: 3;
+}
+.flex-v{
+	flex-direction: row;
+}
+
+.default-btn{
+	background-image:  linear-gradient(to bottom, #62d1d2 0%, #59c2c3 100%);
+	border: 1px solid #59c2c3;
+	text-shadow:none;
+	color: white;
+}
+
+.default-btn:active,.default-btn:hover,.default-btn:focus{
+	background-color: #59c2c3;
+	border: 1px solid #59c2c3;
+	text-shadow:none;
+	color: white;
+}
+.default-btn:active:focus{
+	background-color: #62d1d2;
+	border: 1px solid #59c2c3;
+	text-shadow:none;
+	color: white;
+}
+
+.alarm-btn{
+	background-image:  linear-gradient(to bottom, #E34C0D 0%, #E34C0D 100%);
+	border: 1px solid #E34C0D;
+}
+.alarm-btn:active,.alarm-btn:hover,.alarm-btn:focus{
+	background-color: #E34C0D;
+	border: 1px solid #E34C0D;
+	
+}
+.alarm-btn:active:focus{
+	background-color: #E34C0D;
+	border: 1px solid #E34C0D;
+}
+
+

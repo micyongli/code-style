@@ -1,0 +1,27 @@
+.road-page-right{
+	border:1px dashed #ddd;
+	flex-grow:1;
+    margin-right: 1px;
+    display: flex;
+    position: relative;
+}
+.road-page-left{
+ width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-right:1px;
+}
+.search-container{
+    padding-left: 2px;
+}
+.tree-container{
+    overflow-y: auto;
+    flex-grow: 1;
+}
+.btn-container{
+    text-align: center;
+    border-top: 1px solid #eee;
+}
+.btn-container svg{
+    margin:5px 20px;   
+}

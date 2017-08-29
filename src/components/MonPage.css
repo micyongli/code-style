@@ -1,0 +1,16 @@
+
+.mon-page-left{
+	border:1px dashed #ddd;
+	flex-grow:1;
+    margin-right: 4px;
+    overflow: hidden;
+}
+.mon-page-right{
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    margin-right:4px;
+}
+.can-scroll{
+    overflow-y: auto;
+}

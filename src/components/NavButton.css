@@ -1,0 +1,60 @@
+.navwrap{
+    margin: 0 10px 0 0;
+    padding: 0;
+    display: inline-block;
+}
+.nav-btn{
+    position: relative;
+    width:126px;
+    height:76px;        
+    padding: 0;   
+    box-shadow: 0 2px 9px 0 #919191;
+    cursor: pointer;
+}
+
+.nav-title{
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 5px;
+    text-align: center;
+    font-size: 18px;  
+    cursor: pointer; 
+    user-select: none;
+}
+.nav-btn-hover{
+    box-shadow: 0 2px 9px 0 #393939;
+    cursor: pointer;
+    color:white;
+}
+.nav-mon-on{
+    background: url('/imgs/mon-on.png') #59c2c3  no-repeat center 10px;
+}
+.nav-mon-off{
+    background: url('/imgs/mon-off.png') #e0e0e0   no-repeat center 10px;
+}  
+
+.nav-flow-on{
+    background: url('/imgs/flow-on.png') #59c2c3   no-repeat center 10px;
+}
+.nav-flow-off{
+    background: url('/imgs/flow-off.png') #e0e0e0    no-repeat center 10px;
+} 
+.nav-road-on{
+    background: url('/imgs/road-on.png') #59c2c3   no-repeat center 10px;
+}
+.nav-road-off{
+    background: url('/imgs/road-off.png') #e0e0e0    no-repeat center 10px;
+} 
+.nav-config-on{
+    background: url('/imgs/config-on.png') #59c2c3   no-repeat center 10px;
+}
+.nav-config-off{
+    background: url('/imgs/config-off.png') #e0e0e0    no-repeat center 10px;
+} 
+.nav-alarm-on{
+    background: url('/imgs/alarm-on.png') #59c2c3   no-repeat center 10px;
+}
+.nav-alarm-off{
+    background: url('/imgs/alarm-off.png') #e0e0e0    no-repeat center 10px;
+} 

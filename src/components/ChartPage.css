@@ -1,0 +1,123 @@
+.DateRangePickerInput{
+    border: none
+}
+
+.form-timespan input{
+    margin: 0;
+    display: inline-block;
+}
+
+
+.chartpage-right{
+    margin-left: 10px;
+    flex-grow: 1;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    
+}
+.chartpage-tree{
+    overflow-y: auto;
+    flex-grow: 1;
+}
+.bottom-border{
+    border-bottom: 1px dashed #eee;
+}
+.left-border{
+    border-left: 1px solid #eee;
+}
+
+.chartpage-row{
+    flex-direction: row;
+}
+.chartpage-cvs{
+    overflow: hidden;
+    flex-grow: 1;
+    border-left: 1px dashed #eee;
+    display: flex;
+    position: relative;
+}
+.chartpage-cvs canvas{
+    margin: 0;
+    padding: 0;    
+}
+.daterangepicker.ltr .calendar.right{
+    margin-left: 20px;
+}
+
+.chart-icon{
+    display: inline-block;
+    border: 1px solid red;
+    padding: 2px;
+    margin-left: 10px;
+    height: 30px;
+}
+.daterangepicker td.active, .daterangepicker td.active:hover{
+    background-color: #59c2c3;
+}
+.range_inputs .btn-success,.range_inputs .btn-success:active:focus{
+    background-image: linear-gradient(to bottom, #62d1d2 0%, #59c2c3 100%);
+    border: 1px solid #59c2c3;
+    text-shadow: none;
+    background-color:#59c2c3;
+    color: white;
+}
+
+.tbl-container{
+    flex-grow: 1;
+    margin: 10px 10%;
+    padding: 0 1.3em;
+    overflow-y: auto;
+    width: 80%;
+}
+
+.chartpage-opt{
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 2000;
+    text-align: center;
+}
+.chartpage-cvs-container{
+    flex-grow: 1;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+.btn-margin{
+       margin: 10px 5px;
+}
+
+.btn-cars::after{
+    content: " ";
+    width: 0.8em;
+    height: 0.8em;
+    display: inline-block;
+    background-color: #b2dc9e;
+    margin-left: 4px;
+}
+
+.btn-speed::after{
+    content: " ";
+    width: 0.8em;
+    height: 0.8em;
+    display: inline-block;
+    background-color: #edab74;
+    margin-left: 4px;
+}
+.btn-usages::after{
+    content: " ";
+    width: 0.8em;
+    height: 0.8em;
+    display: inline-block;
+    background-color: #939cc6;
+    margin-left: 4px;
+}
+.btn-cardis::after{
+    content: " ";
+    width: 0.8em;
+    height: 0.8em;
+    display: inline-block;
+    background-color: #eba8d6;
+    margin-left: 4px;
+}

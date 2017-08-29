@@ -1,0 +1,19 @@
+.comp{  
+    position: absolute;
+    display: inline-block;
+    right: 0;  
+    margin-top:2px;
+    margin-right: 10px;
+    text-align: center;
+}
+.comp .main{
+    display: block;
+    color:#818181;
+    font-size: 14px;
+}
+.com .sub{
+    display: block;
+    color: #313131;
+    font-size: 20px;
+    font-weight: bold;
+}
