@@ -53,10 +53,6 @@ ReactDOM.render(
                         name="报警查询"
                         onClass='nav-btn nav-btn-hover nav-alarm-on'
                         offClass='nav-btn nav-alarm-off' />
-                    <Company>
-                        <span className="main">杭州时祺科技有限公司</span>
-                        <span className="sub">流量监控系统</span>
-                    </Company>
                 </div>
                 <Route exact path='/' component={MonPage} />
                 <Route exact path='/chart' component={ChartPage} />
